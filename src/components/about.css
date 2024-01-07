@@ -1,33 +1,50 @@
 
-.logo{
-    width: 140px;
-}
-
-.intro{
+.about{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 650px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    text-align: center;
+   margin: 20px auto;
 }
 .title{
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
-.about-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .graduate{
-    width: 80px;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
 }
-.divider{
+.divider2{
     margin: auto;
-   
-    color: rgb(226, 224, 224);
-    width: 75%;
+    color: rgb(88, 86, 86);
+    width: 100%;
     border-bottom: 2px solid;
     border-radius: 2px;
-    
+}
+.education-bars{
+    margin: 15px;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.education-bar{
+    display: flex;
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: rgb(50, 50, 50);
+}
+.study{
+    font-size: 20px;
+   font-weight: 500;
+}
+.edu-para{
+    font-size: 12px;
 }
