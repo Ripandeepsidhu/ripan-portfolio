@@ -1,0 +1,44 @@
+.header{
+    height: 60px;
+    max-width: 950px;
+    margin: auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgba(242, 242, 5, 0.844);
+}
+
+
+.listitem{
+    margin: 15px;
+    cursor: pointer;
+}
+
+.contact-btn{
+    background: white;
+    border: none;
+    border-radius: 30px;
+    width: 115px;
+    height: 40px;
+    font-size: medium;
+    font-weight: 600;
+}
+.contact-btn:hover{
+    width: 130px;
+    height: 50px;
+}
+.listitem:hover{
+    color: rgba(242, 242, 5, 0.844);
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    color: rgba(242, 242, 5, 0.844);
+    
+}
