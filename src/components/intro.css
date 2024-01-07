@@ -1,11 +1,13 @@
 .intro-container{
-    margin: 0 auto;
+    margin:  auto;
+    margin-bottom: 20px;
     width: 100vw;
     max-width: 950px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    
 }
 .hello{
     font-size: 20px;
@@ -20,7 +22,7 @@
     max-width: 580px;
 }
 .intro-para{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
 }
 
@@ -31,8 +33,17 @@
     height: 620px;
     
 }
+.divider{
+    margin: auto;
+   
+    color: rgb(30, 15, 15);
+    width: 75%;
+    border-bottom: 2px solid;
+    border-radius: 2px;
+    
+}
 
-@media screen and (max-width:800px) {
+/*@media screen and (max-width:800px) {
     .intro-container{
         display: flex;
         flex-direction: row;
@@ -86,5 +97,5 @@
         font-size: 22px;
         font-weight: 500;
     }
-}
+}*/
 
