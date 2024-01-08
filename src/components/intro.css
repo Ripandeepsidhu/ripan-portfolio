@@ -1,6 +1,7 @@
 .intro-container{
     margin:  auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     width: 100vw;
     max-width: 950px;
     display: flex;
@@ -37,7 +38,6 @@
 }
 .divider{
     margin: auto;
-   
     color: rgb(88, 86, 86);
     width: 65%;
     border-bottom: 2px solid;

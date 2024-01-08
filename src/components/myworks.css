@@ -1,0 +1,124 @@
+.web1{
+    color: white;
+   font-size: 14px;
+}
+.web1:hover{
+    color: blue;
+}
+.works-container{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin: 20px auto;
+   
+}
+.works-bars{
+    margin: 15px;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.works-bar{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: rgb(107, 105, 105);
+}
+.works-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+   margin-top: 20px;
+}
+.work{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.description{
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.built-on{
+    font-size: 15px;
+    font-weight: 500;
+}
+.screenshot{
+    width: 300px;
+    height: 220px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.divider3{
+    margin: auto;
+    color: rgb(88, 86, 86);
+    width: 65%;
+    border-bottom: 2px solid;
+    border-radius: 2px;
+    
+}
+@media screen and (max-width:965px) {
+    .works-title{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    .work{
+        font-size: 18px;
+        font-weight: 500;
+        }
+        .description{
+            width: 300px;
+            font-size: 12px;
+        }
+    .works-container{
+        display: flex;
+        flex-direction: column;
+        width: 460px;
+    }
+    .screenshot{
+        width: 300px;
+        height: 210px;
+    }
+    .built-on{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width:500px) {
+    .works-title{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .work{
+        font-size: 16px;
+        font-weight: 400;
+        }
+    .description{
+        width: 220px;
+        font-size: 10px;
+        }
+    .works-container{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+    }
+    .screenshot{
+        width: 220px;
+        height: 170px;
+    }
+    .built-on{
+        font-size: 12px;
+        font-weight: 400;
+    }
+}

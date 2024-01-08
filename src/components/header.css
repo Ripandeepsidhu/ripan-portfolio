@@ -1,6 +1,6 @@
 .header{
     background-color: rgb(30, 30, 30);
-    height: 60px;
+    height: 80px;
     max-width: 950px;
     margin: auto;
     padding: 10px 20px;
@@ -10,14 +10,13 @@
     position: sticky;
     top: 0;
     z-index: 3;
+
 }
 h1{
     font-size: 50px;
     font-weight: 800;
     color: rgba(242, 242, 5, 0.844);
 }
-
-
 .listitem{
     margin: 15px;
     cursor: pointer;

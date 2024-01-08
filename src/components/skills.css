@@ -9,11 +9,28 @@
     text-align: center;
    margin: 20px auto;
 }
+.skills-bars{
+    margin: 15px;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skills-bar{
+    display: flex;
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: rgb(50, 50, 50);
+}
 .skills-title{
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 0;
     text-align: center;
+}
+.skill{
+    font-size: 20px;
+   font-weight: 500;
 }
 .divider3{
     margin: auto;
@@ -24,4 +41,36 @@
 }
 .icon{
     margin-right: 10px;
+    width: 20px;
+}
+@media screen and (max-width:965px) {
+    .skills-title{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .about-title{
+        font-size: 24px;
+        font-weight: 500;}
+    .skill{
+        font-size: 16px;
+       font-weight: 400;
+    }
+    .icon{
+        margin-right: 10px;
+        width: 20px;
+    }
+}
+@media screen and (max-width:500px) {
+    .skills-title{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .skill{
+        font-size: 14px;
+       font-weight: 400;
+    }
+    .icon{
+        margin-right: 10px;
+        width: 18px;
+    }
 }

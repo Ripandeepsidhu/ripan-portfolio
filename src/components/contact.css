@@ -1,0 +1,52 @@
+.contact{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;justify-content: center;
+    align-items: center;
+}
+.contact-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+   margin-top: 20px;
+}
+.contact-form{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   width: 90vw;
+   max-width: 600px;
+}
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 400px;
+    margin: 5px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(50, 50, 50);
+}
+.submit-btn{
+    background: white;
+    width: 100%;
+    max-width: 350px;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.divider4{
+    margin: auto;
+    color: rgb(88, 86, 86);
+    width: 65%;
+    border-bottom: 2px solid;
+    border-radius: 2px;
+    
+}
