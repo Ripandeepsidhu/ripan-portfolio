@@ -11,6 +11,8 @@ const About = () => {
     return(
     
         <div className='about'>
+        <p className='about-title'>ABOUT ME</p>
+        <p className='about-para'>I have done bachelors in computer applications and now studying frontend development.I love technology and thats why i started my journey as frontend developer.</p> 
         <p className='title'><FontAwesomeIcon icon="fa-solid fa-check-square" />EDUCATION</p> 
         <div className='education-bars'>
             <div className='education-bar'>
