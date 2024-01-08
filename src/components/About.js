@@ -5,13 +5,13 @@ import csspicture from '../images/logo-2582747_1280.webp';
 import jspicture from '../images/JavaScript-logo.png';
 import githubpicture from '../images/github-154769_1280.webp';
 import graduate from '../images/graduation-4319259_1280.png';
-import coding from '../images/code-6127616_1280.webp';
-
+import coding from '../images/code-6127616_1280.webp'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const About = () => {
     return(
     
         <div className='about'>
-        <p className='title'>EDUCATION</p> 
+        <p className='title'><FontAwesomeIcon icon="fa-solid fa-check-square" />EDUCATION</p> 
         <div className='education-bars'>
             <div className='education-bar'>
                 <img src={graduate} alt='' className='graduate'/>
