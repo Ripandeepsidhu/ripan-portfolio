@@ -20,6 +20,7 @@ h1{
 .listitem{
     margin: 15px;
     cursor: pointer;
+    color: white;
 }
 
 .contact-btn{
@@ -41,4 +42,7 @@ h1{
     padding-bottom: 5px;
     color: rgba(242, 242, 5, 0.844);
     
+}
+.active{
+    color: rgba(242, 242, 5, 0.844);
 }

@@ -6,11 +6,12 @@ const Header = () => {
         <nav className="header">
             <div><h1>R.</h1></div>
             <div className="list">
-                <Link  className="listitem" to="/">Home</Link>
-                <NavLink  className="listitem" to="/about">About</NavLink>
-                <NavLink  className="listitem" to="/myworks">My Works</NavLink>
+                <Link activeClass='active'  className="listitem" to="/">Home</Link>
+                <NavLink activeClass='active'  className="listitem" to="/about">About</NavLink>
+                <NavLink activeClass='active'  className="listitem" to="/myworks">My Works</NavLink>
+                <NavLink activeClass='active' className="listitem" to="/contactme">Contact Me</NavLink>
             </div>
-            <button className="contact-btn">Contact me</button>
+        
         </nav>
     )
 }

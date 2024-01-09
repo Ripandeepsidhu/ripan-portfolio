@@ -2,10 +2,11 @@ import './about.css';
 import React from 'react';
 import graduate from '../images/graduation-4319259_1280.png';
 import coding from '../images/code-6127616_1280.webp'
+import Skills from './Skills';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const About = () => {
     return(
-    
+    <>
         <div className='about'>
         <p className='about-title'>ABOUT ME</p>
         <p className='about-para'>I have done bachelors in computer applications and now studying frontend development.I love technology and thats why i started my journey as frontend developer.</p> 
@@ -31,6 +32,8 @@ const About = () => {
        
 
         </div>
+        <Skills/>
+        </>
     )
 }
 export default About;
