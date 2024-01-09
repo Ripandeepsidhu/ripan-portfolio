@@ -9,7 +9,8 @@ const Header=()=>{
   return(
       <>
      <nav>
-     <Link className="title" to="/"> R..</Link>
+        <div>
+     <Link className="title" to="/"> R..</Link></div>
      <div className="menu" onClick={() =>
      setMenuOpen(!menuOpen)}>
      <span></span>
