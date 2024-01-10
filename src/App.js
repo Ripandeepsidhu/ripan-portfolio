@@ -1,7 +1,6 @@
 import Header from './components/Header';
 import Intro from './components/Intro';
 import About from './components/About';
-
 import Myworks from './components/Myworks';
 import Contactme from './components/Contact';
 import './App.css';
@@ -24,5 +23,4 @@ function App() {
     </>
   );
 }
-
 export default App;

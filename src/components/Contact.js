@@ -6,7 +6,7 @@ const Contactme = () =>{
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_rw118p4', 'template_7wxxk6s',form.current, 'SQXNdJ3jQ-eEr8bsW8qtH')
+        emailjs.sendForm('service_rw118p4', 'template_7wxxk6s',form.current, 'kdcsTzPJDkSOI74Gm')
           .then((result) => {
               console.log(result.text);
           }, (error) => {

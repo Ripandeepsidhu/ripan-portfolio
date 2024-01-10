@@ -20,13 +20,13 @@ const Header=()=>{
      <ul className={menuOpen ? "open" : "" }>
         
         <li>
-          <NavLink activeClass='active' to="/about"> About</NavLink>
+          <NavLink activeclass='active' to="/about"> About</NavLink>
         </li>
         <li>
-          <NavLink activeClass='active' to="/myworks">My Works</NavLink>
+          <NavLink activeclass='active' to="/myworks">My Works</NavLink>
          </li>
          <li>
-          <NavLink activeClass='active' to="/contactme">Contact Me</NavLink>
+          <NavLink activeclass='active' to="/contactme">Contact Me</NavLink>
         </li>
       </ul>
       </nav></>

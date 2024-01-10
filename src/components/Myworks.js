@@ -29,6 +29,7 @@ const Myworks =()=>{
             </div>
         </div>
         </div>
+        <p className='github'>MY GITHUB :- Ripandeepsidhu</p>
         <div className='divider3'></div>
         </>
     )
