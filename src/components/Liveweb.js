@@ -1,7 +1,7 @@
 import React from 'react';
 import './myworks.css'
 const Liveweb = () => {
-  const liveWebsiteUrl = "https://ripandeepsidhu.github.io/test-skills/";
+  const liveWebsiteUrl = "https://ripandeepsidhu.github.io/Genesis/";
 
   return (
     <a className='web1' href={liveWebsiteUrl} target="_blank" rel="noopener noreferrer">

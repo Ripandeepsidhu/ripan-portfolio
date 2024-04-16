@@ -3,6 +3,7 @@ import Liveweb from './Liveweb';
 import Livewebsite from './Livewebsite';
 import Screenshot from '../images/Screenshot 2024-01-08 at 18.09.15.png';
 import Screenshot2 from '../images/Screenshot 2024-01-08 at 18.23.56.png';
+import Screenshot3 from '../images/Screenshot 2024-04-12 at 17.48.08.png';
 const Myworks =()=>{
     return(
         <>
@@ -24,6 +25,15 @@ const Myworks =()=>{
                     <p className='description'>This project is a responsive website that incorporated basics of website development within a narrow timeline</p>
                     <p className='built-on'>Built on: HTML, CSS, Sass, Figma </p>
                     <img src={Screenshot2} alt='' className='screenshot'/>
+                    <Livewebsite/>
+                </div>
+            </div>
+            <div className='works-bars'>
+                <div className='works-bar'>
+                    <p className='work'>QUIZ GAME</p>
+                    <p className='description'>This project is a quiz game with focus on JAVASCRIPT. Scores are shown at the end depending on correct and incorrect answers.</p>
+                    <p className='built-on'>Built on: HTML, CSS, JAVASCRIPT, Sass, Figma </p>
+                    <img src={Screenshot3} alt='' className='screenshot'/>
                     <Livewebsite/>
                 </div>
             </div>
